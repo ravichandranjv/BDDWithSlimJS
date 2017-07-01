@@ -5,7 +5,7 @@ Pre-requisites -  JRE, Fitnesse - http://fitnesse.org/, NodeJs - https://nodejs.
 
 For the uninitiated to fitnesse
 
-Once fitnesse is installed ad you have un-jarred the fitnesse.jar file with "java -jar <fitnesse file>.jar" Or if port 80 is already in use, "java -jar <fitnesse file>.jar -p 8888 (or xxxx)", your fitnesse server is listening and the below steps can be executed. Please refer to the screenshot - fitnesseserver.png - for the state of the server as it should look in your machine.
+Once fitnesse is installed and you have un-jarred the fitnesse.jar file with "java -jar <fitnesse file>.jar" or, if port 80 is already in use, "java -jar <fitnesse file>.jar -p 8888 (or xxxx)", your fitnesse server is listening and the below steps can be executed. Please refer to the screenshot - fitnesseserver.png - for the state of the server as it should look in your machine.
 
 
 Scenario testing for Javascript using SlimJs
