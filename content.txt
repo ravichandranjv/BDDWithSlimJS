@@ -7,10 +7,15 @@
 |import|
 |test1 |
 
+!|scenario|Missed word|
 
-|script|test1.Test1    |missing word|word|
-|check |getmissingwords|missing          |
+!|scenario|Added word|
 
-|script|test1.Test1  |added word|added word added|
-|check |getaddedwords|added                      |
+|script|test1.Test1            |missing word|word|
+|Missed word                                     |
+|check |missingwordscenariotest|missing          |
+
+|script|test1.Test1          |added word|added word added|
+|Added word                                              |
+|check |addedwordscenariotest|added                      |
 

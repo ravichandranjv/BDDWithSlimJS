@@ -5,7 +5,7 @@ Test1:function(drill,user){
        var str="";
         var diff = jsDiff.diffWords(drill, user);
        
-       this.getmissingwords=function(){       
+       this.missingwordscenariotest=function(){       
             diff.forEach(function(part){
             if(part.removed){
                 str+=part.value;
@@ -14,7 +14,7 @@ Test1:function(drill,user){
        return str;
     };
     var diff1 = jsDiff.diffWords(drill, user);
-    this.getaddedwords=function(){ 
+    this.addedwordscenariotest=function(){ 
         str="";       
             diff1.forEach(function(part){
             if(part.added){
