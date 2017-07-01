@@ -1,6 +1,8 @@
 # BDDWithSlimJS
 SlimJS is "An Async Node.js SliM server for FitNesse" - https://github.com/noamtcohen/SlimJS
 
+Scenario testing for Javascript using SlimJs
+
 1. Install SlimJS with npm install slimjs --save-dev
 2. SlimJS requires the fitnesse server. 
 
@@ -17,3 +19,4 @@ Save the changes.
 4. Click on Test and run the test. The two tests should fail.
 5. Change the space(s) to make the tests pass
 6. Refer to the screenshot in the slimjs_testfixture.png file.
+7. Check out the PPTX (Microsoft Powerpoint presentation file) or the PDF file to know about BDD using SlimJs
