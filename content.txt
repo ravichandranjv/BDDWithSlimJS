@@ -2,20 +2,19 @@
 
 !define COMMAND_PATTERN {node E:\fitnesse\node_modules\slimjs\src\SlimJS %p}
 
-!path E:\fitnesse\slimtests
+!path E:\fitnesse\slimtests\src
 
 |import|
-|test1 |
+|twoscenarios|
 
 !|scenario|Missed word|
 
 !|scenario|Added word|
 
-|script|test1.Test1            |missing word|word|
+|script|twoscenarios            |missing word|word|
 |Missed word                                     |
-|check |missingwordscenariotest|missing          |
+|check |missingwordscenariotest|missing |
 
-|script|test1.Test1          |added word|added word added|
+|script|twoscenarios          |added word|added word added|
 |Added word                                              |
 |check |addedwordscenariotest|added                      |
-
