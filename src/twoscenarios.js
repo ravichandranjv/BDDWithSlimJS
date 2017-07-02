@@ -2,11 +2,11 @@ function myApi(){};
 myApi.prototype = {
 twoscenarios:function(drill,user){
     this.missingwordscenariotest=function(){       
-	return "missing";
+	return "missing ";
     };
 
     this.addedwordscenariotest=function(){ 
-       return "added";
+       return " added";
     };    
 }        
 }
